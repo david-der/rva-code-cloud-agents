@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "rva-code-cloud-agents"
+version = "0.1.0"
+description = "RVA Code Cloud Agents for talk in November 2024"
+authors = ["David Der <david.der@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+openai = "^1.54.3"
+python-dotenv = "^1.0.1"
+openpyxl = "^3.1.5"
+python-pptx = "^1.0.2"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+tqdm = "^4.67.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
