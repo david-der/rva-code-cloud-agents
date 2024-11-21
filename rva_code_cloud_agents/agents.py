@@ -22,7 +22,7 @@ class OpenAIAgent:
 class TextAgent(OpenAIAgent):
     """Agent for text generation using GPT models"""
     
-    def __init__(self, model: str = "gpt-4-turbo-preview"):
+    def __init__(self, model: str = "gpt-4o"):
         super().__init__()
         self.model = model
     
